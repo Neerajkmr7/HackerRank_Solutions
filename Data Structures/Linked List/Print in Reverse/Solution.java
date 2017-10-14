@@ -17,7 +17,7 @@ void ReversePrint(Node head) {
         return;
     }else{
        ReversePrint(head.next); 
-        System.out.println(head.data);
+       System.out.println(head.data);
     }
 
 }
